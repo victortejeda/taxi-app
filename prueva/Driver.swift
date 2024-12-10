@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+struct Driver: Identifiable {
+    let id = UUID()
+    var number: Int
+    var phone: String
+    var name: String
+    var status: String
+    var type: String
+    var isOnline: Bool
+    var photo: String? // Campo opcional para incluir fotos
+}
+

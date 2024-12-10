@@ -11,6 +11,14 @@
 		3699C4262D05FF8E0092B863 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699C4252D05FF8E0092B863 /* ContentView.swift */; };
 		3699C4282D05FF960092B863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3699C4272D05FF960092B863 /* Assets.xcassets */; };
 		3699C42B2D05FF960092B863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3699C42A2D05FF960092B863 /* Preview Assets.xcassets */; };
+		3699C4322D0602DC0092B863 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699C4312D0602DC0092B863 /* WelcomeView.swift */; };
+		3699C4342D0603440092B863 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699C4332D0603440092B863 /* Login.swift */; };
+		3699C4362D0607440092B863 /* ReservationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699C4352D0607440092B863 /* ReservationList.swift */; };
+		3699C4382D0608F70092B863 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699C4372D0608F70092B863 /* Home.swift */; };
+		3699C43A2D060A960092B863 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699C4392D060A960092B863 /* Profile.swift */; };
+		3699C43C2D063BBD0092B863 /* AdminPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699C43B2D063BBD0092B863 /* AdminPanelView.swift */; };
+		3699C4442D0654590092B863 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699C4432D0654580092B863 /* Driver.swift */; };
+		3699C4462D0654750092B863 /* DriverRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699C4452D0654750092B863 /* DriverRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		3699C4252D05FF8E0092B863 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3699C4272D05FF960092B863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3699C42A2D05FF960092B863 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3699C4312D0602DC0092B863 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3699C4332D0603440092B863 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		3699C4352D0607440092B863 /* ReservationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationList.swift; sourceTree = "<group>"; };
+		3699C4372D0608F70092B863 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3699C4392D060A960092B863 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		3699C43B2D063BBD0092B863 /* AdminPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPanelView.swift; sourceTree = "<group>"; };
+		3699C4432D0654580092B863 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		3699C4452D0654750092B863 /* DriverRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +69,16 @@
 			children = (
 				3699C4232D05FF8E0092B863 /* pruevaApp.swift */,
 				3699C4252D05FF8E0092B863 /* ContentView.swift */,
+				3699C4332D0603440092B863 /* Login.swift */,
+				3699C4312D0602DC0092B863 /* WelcomeView.swift */,
+				3699C4372D0608F70092B863 /* Home.swift */,
+				3699C43B2D063BBD0092B863 /* AdminPanelView.swift */,
+				3699C4392D060A960092B863 /* Profile.swift */,
+				3699C4352D0607440092B863 /* ReservationList.swift */,
 				3699C4272D05FF960092B863 /* Assets.xcassets */,
 				3699C4292D05FF960092B863 /* Preview Content */,
+				3699C4432D0654580092B863 /* Driver.swift */,
+				3699C4452D0654750092B863 /* DriverRow.swift */,
 			);
 			path = prueva;
 			sourceTree = "<group>";
@@ -83,6 +107,8 @@
 			dependencies = (
 			);
 			name = prueva;
+			packageProductDependencies = (
+			);
 			productName = prueva;
 			productReference = 3699C4202D05FF8E0092B863 /* prueva.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,11 @@
 				Base,
 			);
 			mainGroup = 3699C4172D05FF8E0092B863;
+			packageReferences = (
+				3699C43D2D06444C0092B863 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+				3699C4402D0650CB0092B863 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				362BAB372D071CA7003AACBB /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 3699C4212D05FF8E0092B863 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +169,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3699C4262D05FF8E0092B863 /* ContentView.swift in Sources */,
+				3699C4362D0607440092B863 /* ReservationList.swift in Sources */,
+				3699C4322D0602DC0092B863 /* WelcomeView.swift in Sources */,
+				3699C43C2D063BBD0092B863 /* AdminPanelView.swift in Sources */,
+				3699C4462D0654750092B863 /* DriverRow.swift in Sources */,
+				3699C43A2D060A960092B863 /* Profile.swift in Sources */,
 				3699C4242D05FF8E0092B863 /* pruevaApp.swift in Sources */,
+				3699C4442D0654590092B863 /* Driver.swift in Sources */,
+				3699C4382D0608F70092B863 /* Home.swift in Sources */,
+				3699C4342D0603440092B863 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +383,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		362BAB372D071CA7003AACBB /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+		3699C43D2D06444C0092B863 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/willdale/SwiftUICharts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.3;
+			};
+		};
+		3699C4402D0650CB0092B863 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 3699C4182D05FF8E0092B863 /* Project object */;
 }
